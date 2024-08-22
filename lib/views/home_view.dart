@@ -19,7 +19,6 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 86, 194, 237),
         title: const Text(
           'Weather Daily',
           style: TextStyle(
